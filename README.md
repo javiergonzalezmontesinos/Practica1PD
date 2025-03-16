@@ -1,6 +1,6 @@
 # Práctica 1: Blink con ESP32-WROOM-32D
 
-Ejercicios extra de la practica 2
+Ejercicio 2 extra de la practica 1
 
 Proyecto para leer la temperatura del sensor interno del procesador de la placa ESP32.
 
