@@ -5,8 +5,32 @@ Este proyecto hace parpadear un LED utilizando el microcontrolador ESP32-WROOM-3
 ## Código
 El código principal se encuentra en `src/main.cpp`.
 
-## Diagrama de Flujo
-(Aquí puedes agregar un diagrama de flujo si lo tienes).
+## Diagrama de Flujo (Apartado 1)
+Inicio
+   │
+   ▼
+Configurar pin 2 como salida
+   │
+   ▼
+Bucle infinito
+   │
+   ├── Encender LED
+   │
+   ├── Esperar 500 ms
+   │
+   ├── Apagar LED
+   │
+   └── Esperar 500 ms
+
+## Diagrama de tiempos (Apartado 1)
+Tiempo (ms) | Estado del LED
+------------|---------------
+0           | Encendido
+500         | Apagado
+1000        | Encendido
+1500        | Apagado
+...         | ...
+
 
 ## Historial de Versiones
 
