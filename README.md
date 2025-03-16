@@ -7,3 +7,8 @@ El código principal se encuentra en `src/main.cpp`.
 
 ## Diagrama de Flujo
 (Aquí puedes agregar un diagrama de flujo si lo tienes).
+
+## Historial de Versiones
+
+- **v1.0**: Versión inicial (Apartado 1). LED parpadea cada segundo.
+- **v2.0**: Añadido envío de datos 'ON' y 'OFF' por el puerto serie (Apartado 2).
