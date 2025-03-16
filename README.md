@@ -7,7 +7,7 @@ Proyecto para leer datos de un potenciómetro, tratar esos datos y sacarlos por 
 ## Código
 El código principal se encuentra en `src/main.cpp`.
 
-![Ejemplo salida monitor serie variando la posición del potenciómetro](images/diagrama_flujo_ejercicio1voluntario.png)
+![Ejemplo salida monitor serie variando la posición del potenciómetro](images/salida_monitorserie_ejercicio1voluntario.png)
 
 ## Diagrama de Flujo (Ejercicio 1 voluntario)
 ![Diagrama de Flujo](images/diagrama_flujo_ejercicio1voluntario.png)
