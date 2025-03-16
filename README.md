@@ -12,4 +12,4 @@ El código principal se encuentra en `src/main.cpp`.
 
 - **v1.0**: Versión inicial (Apartado 1). LED parpadea cada segundo.
 - **v2.0**: Añadido envío de datos 'ON' y 'OFF' por el puerto serie, ampliada la espera a 1000ms (Apartado 2).
-- **V3.0**: Implementación del control del LED mediante registros de entrada y salida.
+- **v3.0**: Implementación del control del LED mediante registros de entrada y salida.
