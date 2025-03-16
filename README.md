@@ -15,7 +15,7 @@ Ejemplo salida monitor serie mostrando la temperatura interna:
 ![Ejemplo salida monitor serie variando la posición del potenciómetro](images/salida_monitorserie_ejercicio2voluntario.png)
 
 ## Diagrama de Flujo (Ejercicio 2 voluntario)
-![Diagrama de Flujo](images/diagrama_flujo_ejercicio1voluntario.png)
+![Diagrama de Flujo](images/diagrama_flujo_ejercicio2voluntario.png)
 
 ## Diagrama de tiempos (Ejercicio 2 voluntario)
-![Diagrama de tiempos](images/diagrama_tiempos_ejercicio1voluntario.png)
+![Diagrama de tiempos](images/diagrama_tiempos_ejercicio2voluntario.png)
