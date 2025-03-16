@@ -1,18 +1,16 @@
 # Práctica 1: Blink con ESP32-WROOM-32D
 
-Este proyecto hace parpadear un LED utilizando el microcontrolador ESP32-WROOM-32D y PlatformIO.
+Ejercicios extra de la practica 1
+
+Proyecto para leer datos de un potenciómetro, tratar esos datos y sacarlos por otro pin del ESP32.
 
 ## Código
 El código principal se encuentra en `src/main.cpp`.
 
-## Diagrama de Flujo (Apartado 3)
-![Diagrama de Flujo](images/diagrama_flujo_apartado3.png)
+![Ejemplo salida monitor serie variando la posición del potenciómetro](images/diagrama_flujo_ejercicio1voluntario.png)
 
-## Diagrama de tiempos (Apartado 3)
-![Diagrama de tiempos](images/diagrama_tiempos_apartado3.png)
+## Diagrama de Flujo (Ejercicio 1 voluntario)
+![Diagrama de Flujo](images/diagrama_flujo_ejercicio1voluntario.png)
 
-## Historial de Versiones
-
-- **v1.0**: Versión inicial (Apartado 1). LED parpadea cada segundo.
-- **v2.0**: Añadido envío de datos 'ON' y 'OFF' por el puerto serie (Apartado 2).
-- **V3.0**: Implementación del control del LED mediante registros de entrada y salida.
+## Diagrama de tiempos (Ejercicio 1 voluntario)
+![Diagrama de tiempos](images/diagrama_tiempos_ejercicio1voluntario.png)
