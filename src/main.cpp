@@ -1,18 +1,34 @@
-#include <Arduino.h>
+#include <Arduino.h>  // Solo necesario si usas PlatformIO
 
-#define LED_BUILTIN 2  // Pin del LED integrado en la ESP32
-#define DELAY 1000     // Retardo de 1000 ms (1 segundo)
+#define LED_PIN 2  // Pin del LED integrado (GPIO2)
 
 void setup() {
-    pinMode(LED_BUILTIN, OUTPUT);  // Configurar el pin como salida
-    Serial.begin(115200);          // Inicializar el puerto serie a 115200 baudios
+    // Inicializar el puerto serie para depuración
+    Serial.begin(115200);
+
+    // Configurar el pin como salida usando el registro GPIO_ENABLE_REG
+    // GPIO_ENABLE_W1TS: Establece (set) el bit correspondiente al pin para habilitarlo como salida
+    GPIO.enable_w1ts = (1 << LED_PIN);
 }
 
 void loop() {
-    digitalWrite(LED_BUILTIN, HIGH);  // Encender el LED
-    Serial.println("LED ON");             // Enviar "ON" al puerto serie
-    delay(DELAY);                     // Esperar 1000 ms
-    digitalWrite(LED_BUILTIN, LOW);   // Apagar el LED
-    Serial.println("LED OFF");            // Enviar "OFF" al puerto serie
-    delay(DELAY);                     // Esperar 1000 ms
+    // Encender el LED (poner el pin en HIGH)
+    // GPIO_OUT_W1TS: Establece (set) el bit del pin para activarlo (HIGH)
+    GPIO.out_w1ts = (1 << LED_PIN);
+
+    // Enviar mensaje "ON" por el monitor serie
+    Serial.println("LED ON");
+
+    // Esperar 1 segundo
+    delay(1000);
+
+    // Apagar el LED (poner el pin en LOW)
+    // GPIO_OUT_W1TC: Limpia (clear) el bit del pin para desactivarlo (LOW)
+    GPIO.out_w1tc = (1 << LED_PIN);
+
+    // Enviar mensaje "OFF" por el monitor serie
+    Serial.println("LED OFF");
+
+    // Esperar 1 segundo
+    delay(1000);
 }
