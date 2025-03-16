@@ -7,6 +7,8 @@ Proyecto para leer datos de un potenciómetro, tratar esos datos y sacarlos por 
 ## Código
 El código principal se encuentra en `src/main.cpp`.
 
+Solo se han modificado los commit de los archivos que han variado con respecto al proyecto original de la practica 1.
+
 
 Ejemplo salida monitor serie variando la posición del potenciómetro:
 
