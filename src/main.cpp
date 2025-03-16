@@ -10,9 +10,9 @@ void setup() {
 
 void loop() {
     digitalWrite(LED_BUILTIN, HIGH);  // Encender el LED
-    Serial.println("ON");             // Enviar "ON" al puerto serie
+    Serial.println("LED ON");             // Enviar "ON" al puerto serie
     delay(DELAY);                     // Esperar 1000 ms
     digitalWrite(LED_BUILTIN, LOW);   // Apagar el LED
-    Serial.println("OFF");            // Enviar "OFF" al puerto serie
+    Serial.println("LED OFF");            // Enviar "OFF" al puerto serie
     delay(DELAY);                     // Esperar 1000 ms
 }
