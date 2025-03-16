@@ -10,13 +10,8 @@ El código principal se encuentra en `src/main.cpp`.
 
 
 ## Diagrama de tiempos (Apartado 1)
-Tiempo (ms) | Estado del LED
-------------|---------------
-0           | Encendido
-500         | Apagado
-1000        | Encendido
-1500        | Apagado
-...         | ...
+![Diagrama de tiempos](images/diagrama_tiempos_apartado1.png)
+
 
 
 ## Historial de Versiones
